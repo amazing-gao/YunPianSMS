@@ -1,0 +1,22 @@
+{
+  "name": "YunPianSMS",
+  "version": "1.0.0",
+  "description": "云片短信服务",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BiteBit",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/request/request.git"
+  },
+  "bugs": {
+    "url": "http://github.com/request/request/issues"
+  },
+  "dependencies": {
+    "lodash": "^3.9.3",
+    "request": "^2.57.0"
+  }
+}
