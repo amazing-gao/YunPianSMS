@@ -10,10 +10,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/request/request.git"
+    "url": "git@github.com:BiteBit/YunPianSMS.git"
   },
   "bugs": {
-    "url": "http://github.com/request/request/issues"
+    "url": "https://github.com/BiteBit/YunPianSMS/issues"
   },
   "dependencies": {
     "lodash": "^3.9.3",

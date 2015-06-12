@@ -18,7 +18,8 @@ class YunPianSMS
       uri: uri
       form: data
 
-    request.post header, cb
+    request.post header, (error, resp, body)->
+      cb error, body
 
   getApiUrl: (apiPath)->
     throw new Error 'No apiPath' if !apiPath

@@ -30,7 +30,9 @@
         uri: uri,
         form: data
       };
-      return request.post(header, cb);
+      return request.post(header, function(error, resp, body) {
+        return cb(error, body);
+      });
     };
 
     YunPianSMS.prototype.getApiUrl = function(apiPath) {
